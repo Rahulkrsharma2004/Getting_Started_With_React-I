@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNNY CAPTION</title>
+</head>
+
+<body>
+    <h1>Above</h1>
+    <div id="root">
+     <!-- kljljlkjl -->
+    </div>
+    <h1>Below</h1>
+
+
+</body>
+<script src="https://www.unpkg.com/react@18.2.0/umd/react.development.js" crossorigin></script>
+<script src="https://www.unpkg.com/react-dom@18.2.0/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</html>
+<script type="text/babel">
+    let rootElement = document.getElementById("root")
+
+    const element = <div>
+                         <img src="https://th.bing.com/th?id=OIP.OtLNtJZET4gMvijSXWmhDAHaKx&w=207&h=301&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="100px"/>
+                         <h4>My code DOESN’T work, I have no idea why. My code WORKS, I have no idea why.</h4>
+                    </div>
+    
+    const reactRoot = ReactDOM.createRoot(rootElement)
+
+    reactRoot.render(element)
+</script>
